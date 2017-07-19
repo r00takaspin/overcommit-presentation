@@ -1,14 +1,37 @@
+<!-- $size: 16:9 -->
+
 # :facepunch: Overcommit - хуки хуками погоняют
 
 ###### Вольдэмар Дулецкий, ruby разработчик, компания Evrone
 
 ---
+# :skull: Самое важное - самому не пропустить хук*
+
+<img src="./images/hook.jpg" />
+
+###### рассуждая про хуки
+
+---
+
+
+# :muscle: Проект: публикация научных статей
+
+### Команда: 
+* #### менеджер проекта
+* #### два руби разработчика
+* #### фронт-энд разработчик
+
+#### Срок исполнения: два месяца :fire:
+
+---
+
 
 :scream: Не пытайтесь сами гуглить
 ===
 **название не очень оригинальное*
 
-<img src="./images/dont_google.png" alt="Drawing" style="width: 70%;"/>
+<center><img src="./images/dont_google.png" alt="Drawing" style="width: 50%;"/></center>
+
 
 ---
 
@@ -54,14 +77,46 @@ PrePush:
   RSpec:
     enabled: true
 ```
+---
+# :crown: Использование
 
+## Установка:
+
+Gemfile: 
+
+```
+gem 'overcommit'
+```
+Выполняем в консоли:
+
+```bash
+bundle exec overcommit --install
+```
+
+## Принудительно прогнать хуки:
+
+```bash
+bundle exec overcommit -R
+```
+
+---
+
+# :metal: Оффлайн
+
+<img src="./images/kosmo.jpg" style="width: 50%" />
+
+##### все хуки вызываются на машине разработчика
+ 
 ---
 # :eyes: Как это выглядит?
 
-<img src="https://camo.githubusercontent.com/1968863cd4be5843e9e9b2ba33f0e54059035958/68747470733a2f2f627269676164652e6769746875622e696f2f6f766572636f6d6d69742f6f766572636f6d6d69742e676966" />
+<img src="./images/bash-overcommit.png" />
 
 ---
 
+# :cop: Эффективно для микро-комманд до 5 человек
+
+---
 
 # :moneybag: PROFIT
 
@@ -69,6 +124,13 @@ PrePush:
 * ### код не прошедший проверку не попадает в репозиторий
 * ### бесплатно
 * ### идеально подходит для самоконтроля
+
+---
+
+# :smiling_imp: Подводные камни
+* ### могут возикнуть проблемы с интеграцией в rubymine
+* ### синхронизировать настройки линтеров overcommit и сторонних CI
+* ### можно принудительно отключить код и отправить непроверенный код
 
 ---
 
@@ -81,12 +143,14 @@ PrePush:
 
 ---
 
+# :gem: koenig.rb
+## Калининградский руби-митап: http://koenig-rb.ru
+<img src="./images/monster.png" style="width: 40%" />
+
+---
+
 # :clap: Контакты
 
 ### Вольдэмар Дулецкий (Voldemar Duletskiy)
 ### Email: voldemar.duletskiy@gmail.com
 ### GitHub: github.com/r00takaspin
-
-
-:wine_glass: :wine_glass: :wine_glass:
-=== 
